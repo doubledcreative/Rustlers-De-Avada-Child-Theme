@@ -139,23 +139,19 @@ iframe{border:none!important;}
 
 /* Social Bar Styling*/
 .ddc-social-bar{
-	.fusion-flip-boxes{margin-bottom: 0!important;		
-		.flip-box-inner-wrapper{margin-bottom: 0!important;
-			.fa{font-size: 100px!important;}
+	.fusion-flip-boxes{margin-bottom: 0!important; min-height: 160px!important;
+		.flip-box-inner-wrapper{margin: 0!important;
+			.fa{font-size: 90px!important;}
 			p{margin-bottom: 0!important;}
-			a{color: @white!important; font-size: 20px; display: block; padding: 20px; border-radius: 2px; width: 80%; margin: auto; 
+			a{color: @white!important; font-size: 30px; display: block; padding: 20px; border-radius: 2px; width: 80%; margin: auto; 
 				&:hover{color: @white!important;}
 			}
 		}
+		.flip-box-back{margin: 0!important;}	
 	}
+	
 	.ddc-social-facebook{
 		a{background-color: #304a80!important;}
-	}
-	.ddc-social-twitter{
-		a{background-color: #3f92d2!important;}
-	}
-	.ddc-social-youtube{
-		a{background-color: #950204!important;}
 	}
 }
 
@@ -239,7 +235,7 @@ iframe{border:none!important;}
 	.fusion-main-menu{
 		ul{
 			li{
-				a{font-family:'BT Clarendon W01',Serif!important; text-transform: uppercase; font-weight: 700!important;}
+				a{font-family:'BT Clarendon W01',Serif!important; text-transform: uppercase; font-weight: 700!important; -webkit-font-smoothing: antialiased!important;}
 			}
 		}
 	}	
@@ -646,6 +642,10 @@ iframe{border:none!important;}
 		}
 	}
 	
+	/* Product Margins */
+	
+	.ddc-product-1{margin: -30px 0 20px!important;}
+	.ddc-product-2{margin: -40px 0 10px!important;}
 	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////
@@ -750,6 +750,16 @@ iframe{border:none!important;}
 @media only screen and (max-width: 500px) {
 	
 	
+	/* FONTS */
+
+	h2{font-size: 0.9em!important;}
+	h4{font-size: 1.2em!important;}
+	p{font-size: 1.0em!important;}
+	
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
 	/* GLOBAL STYLES */
 	
 	/* Main Background Image */
@@ -758,6 +768,18 @@ iframe{border:none!important;}
 	/* Rustlers Logo */
 	.ddc-logo{max-width: 500px!important; padding: 20px; filter: drop-shadow(0 0 10px rgba(0,0,0,0.7));-webkit-filter:drop-shadow(0 0 10px rgba(0,0,0,0.7));}
 	.ddc-logo-large{max-width: 96%!important; padding: 20px; filter: drop-shadow(0 0 10px rgba(0,0,0,0.7));-webkit-filter:drop-shadow(0 0 10px rgba(0,0,0,0.7));}
+	
+	/* Toggle Table */
+	.ddc-toggle{
+		.fusion-panel{
+			a{font-size: 14px;}
+		}
+	}
+	
+	/* Product Copy Padding */
+	.ddc-product-copy{padding: 0!important;
+		h4{font-size: 1.0em!important;}
+	}
 	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////
